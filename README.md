@@ -1,3 +1,79 @@
+<<<<<<< HEAD
+Build a Next.js study application and deploy it to Vercel. This is an AC Circuits 
+exam prep app for a Mechatronics Engineering Technology student with a test Monday.
+
+## SOURCE MATERIAL
+The corrected PDF is attached. 109 questions, answer key at the end. Answer key 
+is ground truth — where question body and key conflict, key wins. Known bad 
+questions (errors in both question AND key): Q10, Q28, Q32, Q95 — flag these 
+with worked solutions showing correct math alongside what the key says.
+
+## TECH STACK
+- Next.js 14 (App Router)
+- Tailwind CSS
+- Framer Motion for transitions
+- Recharts for any graphs
+- SVG for ALL circuit diagrams (see diagram specs below)
+- Anthropic SDK (@anthropic-ai/sdk) for Claude tutor
+- localStorage for progress persistence
+- Deploy target: Vercel
+
+## PROJECT STRUCTURE
+/app
+  /page.tsx              — landing/mode select
+  /quiz/page.tsx         — quiz mode
+  /study/page.tsx        — study mode  
+  /calculator/page.tsx   — calculator drill mode
+  /api/tutor/route.ts    — Claude API route (streaming)
+/components
+  /questions/            — question renderer components
+  /diagrams/             — SVG circuit diagram components (one per figure)
+  /calculator/           — TI-Nspire step panels
+  /tutor/                — Claude chat interface
+/lib
+  /questions.ts          — full question bank data
+  /answers.ts            — answer key
+  /calculator-guides.ts  — Nspire steps per question
+
+## CIRCUIT DIAGRAMS — RENDER ALL AS SVG COMPONENTS
+Every diagram referenced in the PDF must be a proper rendered SVG component.
+No placeholders. No "diagram not available." Build every single one.
+
+Here are the figures and their circuit descriptions:
+
+**Figure 10.1** — Series RC circuit: 10V DC source, switch in series, 10kΩ resistor, 
+50µF capacitor to ground. Show component labels and voltage polarity markers on cap.
+
+**Figure 10.2** — Voltage waveform graph: Vc on Y-axis (0-15V), time on X-axis 
+(0-8ms). Voltage starts at 0, ramps linearly to 10V at t=3ms, then drops linearly 
+to 5V at t=5ms, holds at 5V through t=8ms. Render using Recharts LineChart.
+
+**Figure 10.3** — Mixed capacitor network: 10V source. Top branch: two 100µF caps 
+in series. Bottom branch: two 25µF caps in parallel. Both branches in parallel 
+across source. CT arrow pointing into the network.
+
+**Figure 10.4** — Parallel capacitor circuit: 25V source with 10µF and 5µF 
+capacitors in parallel across source.
+
+**Figure 10.5** — Two-branch RC voltage divider: 15V source. Left branch top: 
+5kΩ resistor in series with 10µF cap. Left branch bottom: 10kΩ resistor in series 
+with 5µF cap. Branches in parallel across source.
+
+**Figure 10.6 (appears twice — Q39 version)** — Series-parallel cap circuit: 60V 
+source. 30µF in series with a parallel combination of 20µF and 40µF. 
+(Q65 version uses same figure with 20µF + 40µF parallel group)
+
+**Figure 11.1** — Series RL circuit: 10V DC source, switch, 10kΩ resistor, 
+50mH inductor. Show current direction arrow.
+
+**Figure 11.2** — Inductor current waveform: IL on Y-axis (0-15mA), time on 
+X-axis (0-8ms). Current ramps from 0 to 10mA over t=0 to t=3ms, drops to 5mA 
+at t=5ms, holds at 5mA through t=8ms. Render using Recharts.
+
+**Figure 11.3** — RL circuit with parallel branch: 10V source, 1kΩ series 
+resistor, then parallel combination of 10kΩ resistor and 10mH inductor.
+
+=======
 ## INSTRUCTIONS FOR CLAUDE CODE
 
 Build a Next.js study application and deploy it to Vercel. This is an AC Circuits 
@@ -74,6 +150,7 @@ at t=5ms, holds at 5mA through t=8ms. Render using Recharts.
 **Figure 11.3** — RL circuit with parallel branch: 10V source, 1kΩ series 
 resistor, then parallel combination of 10kΩ resistor and 10mH inductor.
 
+>>>>>>> 8b17a9f (initial)
 **Figure 11.4** — Inductor network: 1kΩ series resistor, then LT pointing into 
 parallel/series inductor combination: 60mH in parallel with series(30mH), 
 all in series with 100mH, and separate 500mH branch. Show LT label.
@@ -294,4 +371,8 @@ Before considering this done:
 [ ] localStorage persistence working
 [ ] Deploys to Vercel without errors
 [ ] Q10, Q28, Q32, Q95 flagged with both key answer and correct answer
+<<<<<<< HEAD
 [ ] Mobile responsive
+=======
+[ ] Mobile responsive
+>>>>>>> 8b17a9f (initial)
