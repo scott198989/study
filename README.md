@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> bc03cbd1ced04cfad0ccfeb987ae3f4006b8813e
 Build a Next.js study application and deploy it to Vercel. This is an AC Circuits 
 exam prep app for a Mechatronics Engineering Technology student with a test Monday.
 
@@ -73,6 +76,7 @@ at t=5ms, holds at 5mA through t=8ms. Render using Recharts.
 **Figure 11.3** — RL circuit with parallel branch: 10V source, 1kΩ series 
 resistor, then parallel combination of 10kΩ resistor and 10mH inductor.
 
+<<<<<<< HEAD
 =======
 ## INSTRUCTIONS FOR CLAUDE CODE
 
@@ -151,6 +155,8 @@ at t=5ms, holds at 5mA through t=8ms. Render using Recharts.
 resistor, then parallel combination of 10kΩ resistor and 10mH inductor.
 
 >>>>>>> 8b17a9f (initial)
+=======
+>>>>>>> bc03cbd1ced04cfad0ccfeb987ae3f4006b8813e
 **Figure 11.4** — Inductor network: 1kΩ series resistor, then LT pointing into 
 parallel/series inductor combination: 60mH in parallel with series(30mH), 
 all in series with 100mH, and separate 500mH branch. Show LT label.
@@ -372,7 +378,11 @@ Before considering this done:
 [ ] Deploys to Vercel without errors
 [ ] Q10, Q28, Q32, Q95 flagged with both key answer and correct answer
 <<<<<<< HEAD
+<<<<<<< HEAD
 [ ] Mobile responsive
 =======
 [ ] Mobile responsive
 >>>>>>> 8b17a9f (initial)
+=======
+[ ] Mobile responsive
+>>>>>>> bc03cbd1ced04cfad0ccfeb987ae3f4006b8813e
