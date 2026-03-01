@@ -43,6 +43,13 @@ const modes = [
     color: 'bg-flagged/10 border-flagged/30 hover:border-flagged',
     icon: '🔢',
   },
+  {
+    title: 'Formula Reference',
+    description: 'Quick-access cheat sheet of all key formulas by category.',
+    href: '/reference',
+    color: 'bg-correct/10 border-correct/30 hover:border-correct',
+    icon: '📐',
+  },
 ]
 
 export default function Home() {

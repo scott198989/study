@@ -148,7 +148,7 @@
     "number": 12,
     "page": 2,
     "type": "MC",
-    "stem": "What is the inductive reactance at 800 Hz of a 1mH inductor with an interna l resistance of 20 Ω?",
+    "stem": "What is the inductive reactance at 800 Hz of a 1mH inductor with an internal resistance of 20 Ω?",
     "choices": {
       "A": "5.0 Ω",
       "B": "20 Ω",
@@ -532,7 +532,7 @@
     "number": 42,
     "page": 7,
     "type": "TF",
-    "stem": "The ideal capacitor completely dissipates all energy applied to it. Ture",
+    "stem": "The ideal capacitor completely dissipates all energy applied to it.",
     "choices": {
       "True": "True",
       "False": "False"
@@ -603,7 +603,7 @@
       "A": "5s",
       "B": "50 ms",
       "C": "500 ms",
-      "D": "50 ms"
+      "D": "5 ms"
     },
     "figure_page_image": "figures/page_08.png"
   },
@@ -908,12 +908,12 @@
     "number": 69,
     "page": 14,
     "type": "MC",
-    "stem": "See Figure 10.1. If the initial voltage of the capacitor = oV, after the closing of the switch, when will the voltage 𝑉𝐶 reach 5.0 V?",
+    "stem": "See Figure 10.1. If the initial voltage of the capacitor = 0V, after the closing of the switch, when will the voltage 𝑉𝐶 reach 5.0 V?",
     "choices": {
       "A": "0.5 s",
       "B": "1.5 s",
       "C": "0.35 s",
-      "D": "."
+      "D": "1.0 s"
     },
     "figure_page_image": "figures/page_14.png"
   },
