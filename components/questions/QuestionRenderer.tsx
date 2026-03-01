@@ -5,7 +5,7 @@ import { Question } from '@/lib/types'
 import { getDiagram } from '@/lib/diagrams'
 import { motion, AnimatePresence } from 'framer-motion'
 
-type Format = 'original' | 'fill_blank' | 'numerical' | 'reverse'
+type Format = 'original' | 'fill_blank' | 'numerical'
 
 interface Props {
   question: Question
@@ -17,9 +17,8 @@ interface Props {
 
 function pickFormat(q: Question, used: string[]): Format {
   const allFormats: Format[] = ['original']
-  if (q.type === 'multiple_choice') allFormats.push('reverse')
-  if (q.calculatorRequired) allFormats.push('numerical')
-  if (q.type === 'multiple_choice' && q.calculatorRequired) allFormats.push('fill_blank')
+  if (q.calculatorRequired && q.type !== 'multiple_choice') allFormats.push('numerical')
+  if (q.calculatorRequired && q.type !== 'multiple_choice') allFormats.push('fill_blank')
 
   const available = allFormats.filter((f) => !used.includes(f))
   if (available.length === 0) return 'original'
@@ -59,7 +58,7 @@ export default function QuestionRenderer({
     if (showResult) return
 
     let isCorrect = false
-    if (format === 'original' || format === 'reverse') {
+    if (format === 'original') {
       isCorrect = selectedAnswer === question.correctAnswer
     } else {
       const cleaned = textInput.trim().toLowerCase()
@@ -108,30 +107,16 @@ export default function QuestionRenderer({
           Q{question.originalNumber}
           {format !== 'original' && (
             <span className="ml-2 px-2 py-0.5 bg-surface rounded text-gray-400">
-              {format === 'fill_blank'
-                ? 'Fill in the Blank'
-                : format === 'numerical'
-                  ? 'Numerical Entry'
-                  : 'Reverse'}
+              {format === 'fill_blank' ? 'Fill in the Blank' : 'Numerical Entry'}
             </span>
           )}
         </span>
 
-        {format === 'reverse' ? (
-          <h2 className="text-lg mt-2 text-white">
-            The answer is{' '}
-            <span className="text-correct font-semibold">
-              {question.options?.find((o) => o.label === question.correctAnswer)
-                ?.text || question.correctAnswer}
-            </span>
-            . Which question does this answer?
-          </h2>
-        ) : (
-          <h2 className="text-lg mt-2 text-white">{question.text}</h2>
-        )}
+        <h2 className="text-lg mt-2 text-white">{question.text}</h2>
       </div>
 
-      {(format === 'original' || format === 'reverse') &&
+      {(format === 'original' ||
+        ((format === 'fill_blank' || format === 'numerical') && question.type === 'multiple_choice')) &&
         question.type !== 'true_false' && (
           <div className="space-y-2">
             {question.options?.map((opt) => (
@@ -158,7 +143,8 @@ export default function QuestionRenderer({
           </div>
         )}
 
-      {(format === 'original' || format === 'reverse') &&
+      {(format === 'original' ||
+        ((format === 'fill_blank' || format === 'numerical') && question.type === 'true_false')) &&
         question.type === 'true_false' && (
           <div className="flex gap-3">
             {['True', 'False'].map((val) => (
@@ -184,7 +170,7 @@ export default function QuestionRenderer({
           </div>
         )}
 
-      {(format === 'fill_blank' || format === 'numerical') && (
+      {(format === 'fill_blank' || format === 'numerical') && question.type !== 'multiple_choice' && question.type !== 'true_false' && (
         <div className="mt-2">
           <input
             type="text"
