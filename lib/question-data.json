@@ -1,0 +1,1446 @@
+[
+  {
+    "id": "Q001",
+    "number": 1,
+    "page": 1,
+    "type": "MC",
+    "stem": "The inductive voltage is directly related to the frequency of which of the following?",
+    "choices": {
+      "A": "Resistance",
+      "B": "Flux Density",
+      "C": "Inductance of the coil",
+      "D": "Current"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q002",
+    "number": 2,
+    "page": 1,
+    "type": "TF",
+    "stem": "V(t) = 𝑉𝑚cos(𝑤𝑡+ 𝜃)is this the standard form for a phasor?",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q003",
+    "number": 3,
+    "page": 1,
+    "type": "MC",
+    "stem": "The opposition to the flow of current which results in the continual interchange of energy between source and magnetic field is known as?",
+    "choices": {
+      "A": "Inductive reactance",
+      "B": "Resistor Influence",
+      "C": "Inactive causes",
+      "D": "Inductive phase shift"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q004",
+    "number": 4,
+    "page": 1,
+    "type": "TF",
+    "stem": "Whether there is a leading or lagging of current or voltage is not a consideration with power factor.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q005",
+    "number": 5,
+    "page": 1,
+    "type": "MC",
+    "stem": "Which one of the following is the derivative of 12 cos (30t - 15˚)?",
+    "choices": {
+      "A": "+ 360 sin(30t - 15˚)",
+      "B": "- 360 cos(30t - 15˚)",
+      "C": "- 360 sin(30t - 15˚)",
+      "D": "+ 360 cos(30t - 15˚)"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q006",
+    "number": 6,
+    "page": 1,
+    "type": "TF",
+    "stem": "The derivative of a sine wave is a cosine wave.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q007",
+    "number": 7,
+    "page": 1,
+    "type": "TF",
+    "stem": "For an inductor the voltage lags the current through it by 90 degrees.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q008",
+    "number": 8,
+    "page": 1,
+    "type": "TF",
+    "stem": "The length of a phasor is called the modulus or magnitude.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q009",
+    "number": 9,
+    "page": 2,
+    "type": "MC",
+    "stem": "A capacitor or an inductor will change characteristics and begin to act like each other when they are exposed to _____",
+    "choices": {
+      "A": "Very high frequencies",
+      "B": "Very Low frequencies",
+      "C": "Very high voltage",
+      "D": "Very low voltage"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q010",
+    "number": 10,
+    "page": 2,
+    "type": "MC",
+    "stem": "The voltage across a capacitor is v = 100 sin(377t + 50˚) and the current through it is 18.8 sin(377t + 140˚). What is the value of capacitance?",
+    "choices": {
+      "A": "1880 µF",
+      "B": "499 µF",
+      "C": "377 µF",
+      "D": "5.3 µF"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q011",
+    "number": 11,
+    "page": 2,
+    "type": "MC",
+    "stem": "Which of the following rms phasor domain expressions is equivalent to the peak time domain expression 50 sin(ωt + 15 ˚)",
+    "choices": {
+      "A": "70.7 ∠ 15 ˚",
+      "B": "70.7 ∠ -15 ˚",
+      "C": "35.5 ∠ 15 ˚",
+      "D": "50 ∠ 15 ˚"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q012",
+    "number": 12,
+    "page": 2,
+    "type": "MC",
+    "stem": "What is the inductive reactance at 800 Hz of a 1mH inductor with an interna l resistance of 20 Ω?",
+    "choices": {
+      "A": "5.0 Ω",
+      "B": "20 Ω",
+      "C": "12 Ω",
+      "D": "0.2 Ω"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q014",
+    "number": 14,
+    "page": 2,
+    "type": "MC",
+    "stem": "Which of the following rectangular values is equivalent to the polar form 20 ∠ 55 ˚?",
+    "choices": {
+      "A": "16 + j11.5",
+      "B": "11.5 + j16.4",
+      "C": "16.4 – j11.5",
+      "D": "11.5 – j16.4"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q015",
+    "number": 15,
+    "page": 2,
+    "type": "MC",
+    "stem": "See Figure 14.3. What is the relationship exists between voltages 𝑉1 and 𝑉2?",
+    "choices": {
+      "A": "𝑉1 leads 𝑉2 by (π/4) ˚",
+      "B": "𝑉1 lags 𝑉2 by (π/4) ˚",
+      "C": "𝑉1 leads 𝑉2 by 45˚",
+      "D": "𝑉1 lags 𝑉2 by 45˚"
+    },
+    "figure_page_image": "figures/page_02.png"
+  },
+  {
+    "id": "Q016",
+    "number": 16,
+    "page": 3,
+    "type": "TF",
+    "stem": "The voltage across an inductor leads the current through it by 90˚.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q017",
+    "number": 17,
+    "page": 3,
+    "type": "MC",
+    "stem": "A measurement of the rate at which a capacitor will store a charge on its plates is called?",
+    "choices": {
+      "A": "Capacitance",
+      "B": "Plate separation",
+      "C": "Total Voltage",
+      "D": "Reactance"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q018",
+    "number": 18,
+    "page": 3,
+    "type": "TF",
+    "stem": "The complex conjugate is found by changing the sign of the real part in the rectangular form.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q019",
+    "number": 19,
+    "page": 3,
+    "type": "MC",
+    "stem": "At what frequency does a 10 µF capacitor have a reactance of 100Ω?",
+    "choices": {
+      "A": "159 Hz",
+      "B": "1.59 kHz",
+      "C": "1.59 MHz",
+      "D": "15.9 kHz"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q020",
+    "number": 20,
+    "page": 3,
+    "type": "TF",
+    "stem": "Phasor algebra for sinusoidal quantities is applicable only for waveforms which have different frequencies.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q021",
+    "number": 21,
+    "page": 4,
+    "type": "TF",
+    "stem": "For a purely resistive element, the voltage and the current through the element are in phase.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q022",
+    "number": 22,
+    "page": 4,
+    "type": "TF",
+    "stem": "Inductive reactance increases directly in proportion to frequency.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q023",
+    "number": 23,
+    "page": 4,
+    "type": "MC",
+    "stem": "The voltage across a 100 mH coil is v = 100 sin50t. Which of these expressions describes the current?",
+    "choices": {
+      "A": "20 sin 50t",
+      "B": "200 sin(50t - 90˚)",
+      "C": "20 sin(50t + 90˚)",
+      "D": "20 sin(50t - 90˚)"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q024",
+    "number": 24,
+    "page": 4,
+    "type": "TF",
+    "stem": "The more reactive the load, the lower the power factor.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q025",
+    "number": 25,
+    "page": 4,
+    "type": "TF",
+    "stem": "A power factor of 1 indicates that maximum power is being delivered.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q026",
+    "number": 26,
+    "page": 4,
+    "type": "TF",
+    "stem": "The derivative of a sine wave is a maximum at the peak amplitude of the waveform.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q027",
+    "number": 27,
+    "page": 4,
+    "type": "MC",
+    "stem": "What is the relationship is true of power factor?",
+    "choices": {
+      "A": "The power factor is the ratio of the total power in a circuit to the circuit current.",
+      "B": "The more resistive the total impedance, the closer the power factor is to 0.",
+      "C": "The more resistive the total impedance, the closer the power factor is to 1.",
+      "D": "The power factor will be lagging in a capacitive circuit."
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q028",
+    "number": 28,
+    "page": 4,
+    "type": "MC",
+    "stem": "How much power is dissipated by a R-L-C network if the current through it is i = 10sin(γt + 30˚) and the voltage across it is v = 50sin(γt - 20˚)?",
+    "choices": {
+      "A": "500 W",
+      "B": "161 W",
+      "C": "143 W",
+      "D": "246 W"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q029",
+    "number": 29,
+    "page": 5,
+    "type": "TF",
+    "stem": "Unlike inductive reactance, capacitive reactance dissipates energy in the form of heat.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q030",
+    "number": 30,
+    "page": 5,
+    "type": "MC",
+    "stem": "How much power is dissipated by a resistor if the peak current through it is i = 10sin(γt + 30˚) and the peak voltage across it is v = 50sin(γt - 30˚)?",
+    "choices": {
+      "A": "353.5 W",
+      "B": "250 W",
+      "C": "500 W",
+      "D": "5 W"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q031",
+    "number": 31,
+    "page": 5,
+    "type": "MC",
+    "stem": "The average power, or real power is the power delivered to and dissipated by the _____.",
+    "choices": {
+      "A": "Inductor",
+      "B": "Load",
+      "C": "Capacitor",
+      "D": "Resistor"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q032",
+    "number": 32,
+    "page": 5,
+    "type": "MC",
+    "stem": "What is the power factor in a system if v = 120 sin(377t + 20˚) and i = 60 sin(377t – 45˚)?",
+    "choices": {
+      "A": "0.423 leading",
+      "B": "0.906 lagging",
+      "C": "0.906 leading",
+      "D": "0.423 lagging"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q033",
+    "number": 33,
+    "page": 5,
+    "type": "MC",
+    "stem": "See Figure 14.1. What is the coil current if 𝐶𝐿 is 500 sin(50t + 20˚)?",
+    "choices": {
+      "A": "5 sin(50t - 70˚)",
+      "B": "5 sin50t",
+      "C": "5 sin(50t + 20˚)",
+      "D": "5 sin(50t + 110˚)"
+    },
+    "figure_page_image": "figures/page_05.png"
+  },
+  {
+    "id": "Q034",
+    "number": 34,
+    "page": 6,
+    "type": "TF",
+    "stem": "Inductive reactance does not dissipate electrical energy.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q035",
+    "number": 35,
+    "page": 6,
+    "type": "MC",
+    "stem": "Which of the following values is equivalent to (5 + j3)(4 - j6)?",
+    "choices": {
+      "A": "38 – j18",
+      "B": "38 + j18",
+      "C": "2 + j18",
+      "D": "2 – j18"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q036",
+    "number": 36,
+    "page": 6,
+    "type": "MC",
+    "stem": "If the voltage v = 50 sin(500t - 75˚) is impressed across a 25Ω resistor, which equation describes the resistor current?",
+    "choices": {
+      "A": "2 cos(500t - 75˚)",
+      "B": "2 sin(20t - 3˚)",
+      "C": "1250 sin(500t - 75˚)",
+      "D": "2 sin(500t - 75˚)"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q037",
+    "number": 37,
+    "page": 6,
+    "type": "MC",
+    "stem": "Which of the following polar values is equivalent to 30 + j40?",
+    "choices": {
+      "A": "70 ∠ 53.1˚",
+      "B": "50 ∠ 53.1˚",
+      "C": "70 ∠ 36.9˚",
+      "D": "50 ∠ 36.9˚"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q038",
+    "number": 38,
+    "page": 6,
+    "type": "MC",
+    "stem": "The equivalent capacitance of capacitors C1 and C2 connected in series is 7.3 microfarads. If the capacitance of C1 = 9.6 microfarads, what is the capacitance of C2?",
+    "choices": {
+      "A": "84.5 microfarads",
+      "B": "30.5 microfarads",
+      "C": "35 microfarads",
+      "D": "2.3 microfarads"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q039",
+    "number": 39,
+    "page": 6,
+    "type": "MC",
+    "stem": "See Figure 10.6. What is the voltage across the 20 µF capacitor?",
+    "choices": {
+      "A": "40 V",
+      "B": "20 V",
+      "C": "60 V",
+      "D": "30 V"
+    },
+    "figure_page_image": "figures/page_06.png"
+  },
+  {
+    "id": "Q040",
+    "number": 40,
+    "page": 7,
+    "type": "TF",
+    "stem": "Similar to resistors, when you want to increase capacitance, you would connect them in series.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q041",
+    "number": 41,
+    "page": 7,
+    "type": "MC",
+    "stem": "The voltage that can be applied across a capacitor for long periods of time without breaking down is known as:",
+    "choices": {
+      "A": "Initial voltage",
+      "B": "Breakdown voltage",
+      "C": "Surge voltage",
+      "D": "Working voltage"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q042",
+    "number": 42,
+    "page": 7,
+    "type": "TF",
+    "stem": "The ideal capacitor completely dissipates all energy applied to it. Ture",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q043",
+    "number": 43,
+    "page": 7,
+    "type": "MC",
+    "stem": "What is the charge on a 500 pF capacitor with 50 volts applied?",
+    "choices": {
+      "A": "25 ΩC",
+      "B": "2.5 ΩC",
+      "C": ".025 C",
+      "D": ".25 ΩC"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q044",
+    "number": 44,
+    "page": 8,
+    "type": "MC",
+    "stem": "Which of the following describes the action of a capacitor?",
+    "choices": {
+      "A": "Converts ac into dc.",
+      "B": "Creates a dc resistance.",
+      "C": "Opposes charges in the flow of current.",
+      "D": "Stores electrical energy."
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q045",
+    "number": 45,
+    "page": 8,
+    "type": "TF",
+    "stem": "The total capacitance of several capacitors connected in series equals the sum of the individual capacities.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q046",
+    "number": 46,
+    "page": 8,
+    "type": "MC",
+    "stem": "What is the total capacitance of three capacitors connected in parallel with values of 2.2 µF, 6 µF, and 3.2 µF?",
+    "choices": {
+      "A": "1.07 µF",
+      "B": ".107 µF",
+      "C": "11.4 µF",
+      "D": "114 µF"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q047",
+    "number": 47,
+    "page": 8,
+    "type": "MC",
+    "stem": "See figure 10.1. What is the time constant t for this circuit?",
+    "choices": {
+      "A": "5s",
+      "B": "50 ms",
+      "C": "500 ms",
+      "D": "50 ms"
+    },
+    "figure_page_image": "figures/page_08.png"
+  },
+  {
+    "id": "Q048",
+    "number": 48,
+    "page": 9,
+    "type": "MC",
+    "stem": "See Figure 10.4. Find the total charge stored on the capacitors in this circuit.",
+    "choices": {
+      "A": "0.600 µC",
+      "B": "0.133 µC",
+      "C": "83.3 µC",
+      "D": "375 µC"
+    },
+    "figure_page_image": "figures/page_09.png"
+  },
+  {
+    "id": "Q049",
+    "number": 49,
+    "page": 9,
+    "type": "TF",
+    "stem": "When breakdown occurs in a capacitor, the capacitor will display the same characteristics as an open circuit.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q050",
+    "number": 50,
+    "page": 9,
+    "type": "MC",
+    "stem": "See Figure 10.2. The Voltage across a 10 µF capacitor is changing as shown in the diagram. What is the current through the capacitor at t = 6 ms?",
+    "choices": {
+      "A": "50 mA",
+      "B": "10 mA",
+      "C": "0 A",
+      "D": "10 µA"
+    },
+    "figure_page_image": "figures/page_09.png"
+  },
+  {
+    "id": "Q051",
+    "number": 51,
+    "page": 10,
+    "type": "TF",
+    "stem": "Electrolytic capacitors have low leakage currents and high breakdown voltages.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q052",
+    "number": 52,
+    "page": 10,
+    "type": "MC",
+    "stem": "Which of the following is true of a capacitor once the charging phase in a dc network has passed?",
+    "choices": {
+      "A": "Resistor values are no longer important",
+      "B": "The capacitor can be replaced by an open circuit",
+      "C": "Breakdown of the capacitor takes place",
+      "D": "The capacitor can be replaced by a short circuit"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q053",
+    "number": 53,
+    "page": 10,
+    "type": "MC",
+    "stem": "The type of capacitance that results not by design, but because two conducting surfaces are in close proximity to each other is called:",
+    "choices": {
+      "A": "Stray capacitance",
+      "B": "Tantalum capacitance",
+      "C": "Electrolytic capacitance",
+      "D": "Variable capacitance"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q054",
+    "number": 54,
+    "page": 10,
+    "type": "TF",
+    "stem": "An ideal capacitor looks like an open circuit to dc current once it has charged to its final value.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q055",
+    "number": 55,
+    "page": 10,
+    "type": "TF",
+    "stem": "Electric flux lines always extend from a positively charged body to a negatively charged body.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q056",
+    "number": 56,
+    "page": 10,
+    "type": "TF",
+    "stem": "Capacitance is directly proportional to the area of the plates and inversely proportional to the distance between the plates.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q057",
+    "number": 57,
+    "page": 10,
+    "type": "MC",
+    "stem": "See Figure 10.5. What is the voltage across the µF capacitor after each capacitor has charged to its final value?",
+    "choices": {
+      "A": "5 V",
+      "B": "0 V",
+      "C": "10 V",
+      "D": "15 V"
+    },
+    "figure_page_image": "figures/page_10.png"
+  },
+  {
+    "id": "Q058",
+    "number": 58,
+    "page": 11,
+    "type": "MC",
+    "stem": "What is the maximum voltage that can be applied across the plates of a capacitor if the plate spacing is 0.05 inches? The dielectric is air, which has a dielectric strength of 75 V/mil.",
+    "choices": {
+      "A": "1500 V",
+      "B": "3750 V",
+      "C": "75 V",
+      "D": "375 V"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q059",
+    "number": 59,
+    "page": 11,
+    "type": "MC",
+    "stem": "A parallel-plate capacitor has plates measuring 10 cm x 10 cm, spaced 1 mm apart. The dielectric is mica with a relative permittivity of 5.0, and the permittivity of a vacuum is 8.85 x 10−12F/m. Which of these choices is closest to the actual capacitance value?",
+    "choices": {
+      "A": "5000 pF",
+      "B": "5 pF",
+      "C": "500 pF",
+      "D": "50 pF"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q060",
+    "number": 60,
+    "page": 11,
+    "type": "MC",
+    "stem": "Two capacitors are placed in series, what is their equivalent capacitance if the value of one capacitor is 1 microfarad and the value of the other capacitor is 3 microfarads?",
+    "choices": {
+      "A": "0.75 microfarads",
+      "B": "0.75 millifarads",
+      "C": "75 microfarads",
+      "D": "7.5 microfarads"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q061",
+    "number": 61,
+    "page": 11,
+    "type": "TF",
+    "stem": "Ideal capacitors do not dissipate energy; they store it for use in the circuit.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q062",
+    "number": 62,
+    "page": 12,
+    "type": "MC",
+    "stem": "See Figure 10.1. If the initial voltage of the capacitor = 0V, what is the maximum instantaneous current that will flow through the capacitor after the closing of the switch?",
+    "choices": {
+      "A": "1 mA",
+      "B": "5 µA",
+      "C": "200 kA",
+      "D": "Infinity"
+    },
+    "figure_page_image": "figures/page_12.png"
+  },
+  {
+    "id": "Q063",
+    "number": 63,
+    "page": 12,
+    "type": "MC",
+    "stem": "What is a dielectric?",
+    "choices": {
+      "A": "A measurement of capacitance",
+      "B": "A conductive plate in the capacitor",
+      "C": "A charged particle",
+      "D": "An insulator between two metal plates in a capacitor"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q064",
+    "number": 64,
+    "page": 12,
+    "type": "MC",
+    "stem": "See Figure 10.3. What is the total capacitance 𝐶𝑇?",
+    "choices": {
+      "A": "12.5 µF",
+      "B": "212.5 µF",
+      "C": "25 µF",
+      "D": "50 µF"
+    },
+    "figure_page_image": "figures/page_12.png"
+  },
+  {
+    "id": "Q064",
+    "number": 64,
+    "page": 13,
+    "type": "MC",
+    "stem": "How long will it take for a 2.2 µF capacitor to charge when connected in series with a 820 ohm resistor to a 20 volt source?",
+    "choices": {
+      "A": ".18 ms",
+      "B": "1.8 ms",
+      "C": "180 ms",
+      "D": "18 ms"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q065",
+    "number": 65,
+    "page": 13,
+    "type": "MC",
+    "stem": "See Figure 10.6. What is the voltage across the 20 µF capacitor?",
+    "choices": {
+      "A": "60 V",
+      "B": "20 V",
+      "C": "30 V",
+      "D": "40 V"
+    },
+    "figure_page_image": "figures/page_13.png"
+  },
+  {
+    "id": "Q066",
+    "number": 66,
+    "page": 13,
+    "type": "MC",
+    "stem": "See Figure 10.1. The voltage voltage 𝑉𝐶will reach 99% of its maximum value after how much time has elapsed?",
+    "choices": {
+      "A": "1 time constant",
+      "B": "5 time constants",
+      "C": "50 time constants",
+      "D": "50 µs"
+    },
+    "figure_page_image": "figures/page_13.png"
+  },
+  {
+    "id": "Q067",
+    "number": 67,
+    "page": 14,
+    "type": "MC",
+    "stem": "What is the capacitance of a capacitor if 10 µC of charge are present when 100 V are applied across its plates?",
+    "choices": {
+      "A": "0.1 µF",
+      "B": "107µF",
+      "C": "10 µF",
+      "D": "1000 µF"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q068",
+    "number": 68,
+    "page": 14,
+    "type": "MC",
+    "stem": "What is the value of a capacitor with 250 volts applied and 500 pC of charge?",
+    "choices": {
+      "A": "2 pF",
+      "B": ".5 pF",
+      "C": "200 µF",
+      "D": "500 µF"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q069",
+    "number": 69,
+    "page": 14,
+    "type": "MC",
+    "stem": "See Figure 10.1. If the initial voltage of the capacitor = oV, after the closing of the switch, when will the voltage 𝑉𝐶 reach 5.0 V?",
+    "choices": {
+      "A": "0.5 s",
+      "B": "1.5 s",
+      "C": "0.35 s",
+      "D": "."
+    },
+    "figure_page_image": "figures/page_14.png"
+  },
+  {
+    "id": "Q070",
+    "number": 70,
+    "page": 14,
+    "type": "MC",
+    "stem": "Which type of capacitor is used in applications requiring several thousand microfarads of capacitance?",
+    "choices": {
+      "A": "Polyester",
+      "B": "Ceramic",
+      "C": "Electrolytic",
+      "D": "Mica"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q071",
+    "number": 71,
+    "page": 15,
+    "type": "TF",
+    "stem": "Permittivity is measured in farads per meter.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q072",
+    "number": 72,
+    "page": 15,
+    "type": "TF",
+    "stem": "The insulating material between the capacitor plates is called a conductor.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q073",
+    "number": 73,
+    "page": 15,
+    "type": "TF",
+    "stem": "Lenz’s law states an induced effect is always such as to oppose the cause that produced it.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q074",
+    "number": 74,
+    "page": 15,
+    "type": "TF",
+    "stem": "Because the energy of a coil is stored in the form of a magnetic field, the inductor can continue to store energy after current is removed.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q075",
+    "number": 75,
+    "page": 15,
+    "type": "MC",
+    "stem": "What is the time constant for a coil of 33 mH and a resistor of 2K ohms?",
+    "choices": {
+      "A": "60.6 mS",
+      "B": "1.65 µS",
+      "C": "165 µS",
+      "D": "16.5 µS"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q076",
+    "number": 76,
+    "page": 15,
+    "type": "TF",
+    "stem": "An inductance tends to oppose changes in current.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q077",
+    "number": 77,
+    "page": 15,
+    "type": "TF",
+    "stem": "The total inductance of several coils in parallel equals the sum of the individual inductances.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q078",
+    "number": 78,
+    "page": 15,
+    "type": "TF",
+    "stem": "Inductance is directly proportional to the area of the magnetic core and inversely proportional to the core length.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q079",
+    "number": 79,
+    "page": 16,
+    "type": "TF",
+    "stem": "The greater the change in current through the coil, the smaller the induced voltage.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q080",
+    "number": 80,
+    "page": 16,
+    "type": "MC",
+    "stem": "Coils of various dimensions designed to indtroduce specified amounts of inductance into a circuit are called?",
+    "choices": {
+      "A": "Semiconductors",
+      "B": "Changed coils",
+      "C": "Inductors",
+      "D": "Electromagnets"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q081",
+    "number": 81,
+    "page": 16,
+    "type": "MC",
+    "stem": "See Figure 11.3. After the closing of the switch, what will the current through the inductor be after the circuit voltages and currents have reached steady-state values? Assume that the inductor is an ideal (lossless) device.",
+    "choices": {
+      "A": "9.1 mA",
+      "B": "10 mA",
+      "C": "11 mA",
+      "D": "0 mA"
+    },
+    "figure_page_image": "figures/page_16.png"
+  },
+  {
+    "id": "Q082",
+    "number": 82,
+    "page": 16,
+    "type": "MC",
+    "stem": "Assume you need a 150 millihenry coil on a 0.75 inch nonmagnetic diameter, 1 inch long. How many turns of wire will be required?",
+    "choices": {
+      "A": "3262",
+      "B": "15,000",
+      "C": "15",
+      "D": "507.5"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q083",
+    "number": 83,
+    "page": 16,
+    "type": "MC",
+    "stem": "See Figure 11.6. What is the source current I after steady-state voltage and current conditions are reached?",
+    "choices": {
+      "A": "0.9 mA",
+      "B": "4 mA",
+      "C": "0 mA",
+      "D": "2 mA"
+    },
+    "figure_page_image": "figures/page_16.png"
+  },
+  {
+    "id": "Q084",
+    "number": 84,
+    "page": 17,
+    "type": "MC",
+    "stem": "The notation 𝑑𝑖 𝑑𝑡 in an inductor refers to",
+    "choices": {
+      "A": "The rate of change of current with respect to time",
+      "B": "The coil permeability as a function of temperature",
+      "C": "The magnetizing force applied per turn",
+      "D": "The ratio of current to numbers of turns"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q085",
+    "number": 85,
+    "page": 17,
+    "type": "MC",
+    "stem": "What value of resistance would create a time constant of 50 µS using a 150 mH inductor?",
+    "choices": {
+      "A": "1K ohms",
+      "B": "4K ohms",
+      "C": "2K ohms",
+      "D": "3K ohms"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q086",
+    "number": 86,
+    "page": 17,
+    "type": "TF",
+    "stem": "Voltage across the coil is determined by the magnitude of the inductance of the coil and by the rate of change of current through the coil.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q087",
+    "number": 87,
+    "page": 17,
+    "type": "MC",
+    "stem": "If an air-core coil has an inductance of 2 µH, what will the inductance become if an iron core is inserted? Assume that the iron core has a relative permeability µT of 1000.",
+    "choices": {
+      "A": "63 µH",
+      "B": "2 µH",
+      "C": "2 x 10−9H",
+      "D": "2000 µH"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q088",
+    "number": 88,
+    "page": 17,
+    "type": "MC",
+    "stem": "See Figure 11.4. What is the total inductance 𝐿𝑇?",
+    "choices": {
+      "A": "43 mH",
+      "B": "620 mH",
+      "C": "173 mH",
+      "D": "690 mH"
+    },
+    "figure_page_image": "figures/page_17.png"
+  },
+  {
+    "id": "Q089",
+    "number": 89,
+    "page": 18,
+    "type": "MC",
+    "stem": "See Figure 11.5. These curves describe the voltage and current characteristics in a R-L circuit. In a series R-L circuit (similar to Figure 11.1), the voltage across the inductor reaches 80% of its final value:",
+    "choices": {
+      "A": "Immediately.",
+      "B": "1.6 time constants after closing the switch.",
+      "C": "5.0 time constants after closing the switch.",
+      "D": "0.2 time constants after closing the switch."
+    },
+    "figure_page_image": "figures/page_18.png"
+  },
+  {
+    "id": "Q090",
+    "number": 90,
+    "page": 18,
+    "type": "TF",
+    "stem": "Ideal inductors do not dissipate energy; they store energy in the form of a magnetic field.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q091",
+    "number": 91,
+    "page": 18,
+    "type": "MC",
+    "stem": "See Figure 11.1. After the closing of the switch, what will the voltage across the resistor be after the voltage and current in the circuit reach a steady-state value? Assume that the inductor in this circuit is an ideal (lossless) device.",
+    "choices": {
+      "A": "0 V",
+      "B": "2.5 V",
+      "C": "5 V",
+      "D": "10 V"
+    },
+    "figure_page_image": "figures/page_18.png"
+  },
+  {
+    "id": "Q092",
+    "number": 92,
+    "page": 19,
+    "type": "MC",
+    "stem": "A toroidal inductor can be described as:",
+    "choices": {
+      "A": "An inductor that contains a doughnut-shaped core.",
+      "B": "Any inductor that contains ferromagnetic core.",
+      "C": "A permeability-tuned inductor, in which the core is adjustable within the coil to vary the inductance.",
+      "D": "Any inductor that contains core material exhibiting a linear BH characteristic curve."
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q093",
+    "number": 93,
+    "page": 19,
+    "type": "TF",
+    "stem": "The total inductance for inductors in series and parallel can be found the same way as resistors in series and parallel.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q094",
+    "number": 94,
+    "page": 19,
+    "type": "MC",
+    "stem": "What is the rate of change of flux if 50 V are induced in a coil consisting of 100 turns of wire?",
+    "choices": {
+      "A": "5000 Wb/s",
+      "B": "2 Wb/s",
+      "C": "150 Wb/s",
+      "D": "0.5 Wb/s"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q095",
+    "number": 95,
+    "page": 19,
+    "type": "MC",
+    "stem": "See Figure 11.1. What is the time constant x in this circuit?",
+    "choices": {
+      "A": "50 ms",
+      "B": "500 s",
+      "C": "5 µF",
+      "D": "2 x 105s"
+    },
+    "figure_page_image": "figures/page_19.png"
+  },
+  {
+    "id": "Q096",
+    "number": 96,
+    "page": 20,
+    "type": "MC",
+    "stem": "See Figure 11.5. The point at which the two curves cross is the only point at which:",
+    "choices": {
+      "A": "The voltage across the coil has the same numeric value as the current through the coil.",
+      "B": "The steady-state conditions exist.",
+      "C": "The current through the coil is the same as the current through the resistor.",
+      "D": "The voltage across the coil is the same as the voltage across the resistor."
+    },
+    "figure_page_image": "figures/page_20.png"
+  },
+  {
+    "id": "Q097",
+    "number": 97,
+    "page": 20,
+    "type": "MC",
+    "stem": "See Figure 11.2. The current through a 10 mH coil is changing as shown in the diagram. What is the voltage across the coil at t = 1 ms?",
+    "choices": {
+      "A": "0 V",
+      "B": "2 mV",
+      "C": "50 mV",
+      "D": "10 mV"
+    },
+    "figure_page_image": "figures/page_20.png"
+  },
+  {
+    "id": "Q098",
+    "number": 98,
+    "page": 21,
+    "type": "MC",
+    "stem": "See Figure 11.1. After the closing of the switch, when will the current through the inductor 800 µA? Assume that the inductor is an ideal (lossless) device.",
+    "choices": {
+      "A": "5.0 µs",
+      "B": "2.0 µs",
+      "C": "8.0 µs",
+      "D": "10.0 µs"
+    },
+    "figure_page_image": "figures/page_21.png"
+  },
+  {
+    "id": "Q099",
+    "number": 99,
+    "page": 21,
+    "type": "MC",
+    "stem": "See Figure 11.3. After the current has reached a steady-state value, the switch opens. What will the voltage across the inductor be the instant the switch opens?",
+    "choices": {
+      "A": "1 V",
+      "B": "110 V",
+      "C": "10 V",
+      "D": "9 V"
+    },
+    "figure_page_image": "figures/page_21.png"
+  },
+  {
+    "id": "Q100",
+    "number": 100,
+    "page": 22,
+    "type": "TF",
+    "stem": "An ideal inductor looks like an open circuit to dc current once the magnetic field has reached its final value.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q101",
+    "number": 101,
+    "page": 22,
+    "type": "MC",
+    "stem": "See Figure 11.2. The current through a 10mH coil is changing as shown in the diagram. What is the voltage across the coil at t = 6 ms?",
+    "choices": {
+      "A": "0 V",
+      "B": "2 mV",
+      "C": "50 mV",
+      "D": "10 mV"
+    },
+    "figure_page_image": "figures/page_22.png"
+  },
+  {
+    "id": "Q102",
+    "number": 102,
+    "page": 23,
+    "type": "TF",
+    "stem": "The larger the inductance, the more the circuit will oppose a rapid buildup in current level.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q103",
+    "number": 103,
+    "page": 23,
+    "type": "MC",
+    "stem": "See Figure 10.2. The Voltage across a 10 µF capacitor is changing as shown in the diagram. What is the current through the capacitor at t = 1 ms?",
+    "choices": {
+      "A": "50 mA",
+      "B": "0 mA",
+      "C": "10 µA",
+      "D": "10 mA"
+    },
+    "figure_page_image": "figures/page_23.png"
+  },
+  {
+    "id": "Q104",
+    "number": 104,
+    "page": 23,
+    "type": "MC",
+    "stem": "An air-core coil consists of 100 turns of wire wrapped on a 1 cm diameter coil from 4 cm long. What is the approximate inductance of this coil?",
+    "choices": {
+      "A": "25 µH",
+      "B": "3 mH",
+      "C": "250 µH",
+      "D": "5 µH"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q105",
+    "number": 105,
+    "page": 23,
+    "type": "MC",
+    "stem": "What is the inductance of a single-layer coil on a 0.8 inch diameter nonmagnetic core with a length of 1.25 inch and 320 turns or wire?",
+    "choices": {
+      "A": "1.31 millihenrys",
+      "B": "1200 millihenrys",
+      "C": "3.8 henrys",
+      "D": "3.8 millihenrys"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q106",
+    "number": 106,
+    "page": 24,
+    "type": "TF",
+    "stem": "A capacitor has a capacitance of 1 farad if 1 coulomb of charge is deposited on the plates by a potential difference of 1 volt across the plates.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q107",
+    "number": 107,
+    "page": 24,
+    "type": "TF",
+    "stem": "For an inductor the voltage lags the current through it by 90 degrees.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q108",
+    "number": 108,
+    "page": 24,
+    "type": "TF",
+    "stem": "Unlike inductive reactance, capacitive reactance dissipates energy in the form of heat.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  },
+  {
+    "id": "Q109",
+    "number": 109,
+    "page": 24,
+    "type": "TF",
+    "stem": "The derivative of a sine wave is a maximum at the peak amplitude of the waveform.",
+    "choices": {
+      "True": "True",
+      "False": "False"
+    },
+    "figure_page_image": null
+  }
+]
