@@ -18,8 +18,8 @@ interface Props {
 function pickFormat(q: Question, used: string[]): Format {
   const allFormats: Format[] = ['original']
   if (q.type === 'multiple_choice') allFormats.push('reverse')
-  if (q.calculatorRequired) allFormats.push('numerical')
-  if (q.type === 'multiple_choice' && q.calculatorRequired) allFormats.push('fill_blank')
+  if (q.calculatorRequired && q.type !== 'multiple_choice') allFormats.push('numerical')
+  if (q.calculatorRequired && q.type !== 'multiple_choice') allFormats.push('fill_blank')
 
   const available = allFormats.filter((f) => !used.includes(f))
   if (available.length === 0) return 'original'
@@ -131,7 +131,8 @@ export default function QuestionRenderer({
         )}
       </div>
 
-      {(format === 'original' || format === 'reverse') &&
+      {(format === 'original' || format === 'reverse' ||
+        ((format === 'fill_blank' || format === 'numerical') && question.type === 'multiple_choice')) &&
         question.type !== 'true_false' && (
           <div className="space-y-2">
             {question.options?.map((opt) => (
@@ -158,7 +159,8 @@ export default function QuestionRenderer({
           </div>
         )}
 
-      {(format === 'original' || format === 'reverse') &&
+      {(format === 'original' || format === 'reverse' ||
+        ((format === 'fill_blank' || format === 'numerical') && question.type === 'true_false')) &&
         question.type === 'true_false' && (
           <div className="flex gap-3">
             {['True', 'False'].map((val) => (
@@ -184,7 +186,7 @@ export default function QuestionRenderer({
           </div>
         )}
 
-      {(format === 'fill_blank' || format === 'numerical') && (
+      {(format === 'fill_blank' || format === 'numerical') && question.type !== 'multiple_choice' && question.type !== 'true_false' && (
         <div className="mt-2">
           <input
             type="text"
